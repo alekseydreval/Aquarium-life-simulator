@@ -1,0 +1,44 @@
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Istok+Web:400,700,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link href='http://fonts.googleapis.com/css?family=Forum&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script src="aquarium.js"></script>
+	<script>
+	window.onload = function() {
+		 var aq = new Aquarium({width : 1600, height : 1080}),
+		     btn = document.getElementById('add_fish_btn')
+		 btn.onclick = function(){
+		 	aq.addFish();
+		 	aq.addFish();
+		 	aq.addFish();
+		 }
+    }
+    </script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="description">
+			<h1>Аквариум</h1>
+			<ul>
+				<li>
+					Существует 2 типа рыб: <red>хищные</red> и <green>травоядные</green>.
+				</li>
+				<li>
+					Хищные рыбы едят травоядных рыб и хищных меньшего размера.
+				</li>
+				<li>
+					Когда рыба кого-нибудь съедает - она темнеет. Если рыба становится абсолютно черной, то она погибает.
+				</li>
+				<li>
+					Если рыба погибла - она возрождается чрез 10 секунд.
+				</li>
+			<button id='add_fish_btn'>
+				Запустить несколько рыб
+			</button>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

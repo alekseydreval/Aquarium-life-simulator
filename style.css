@@ -1,0 +1,62 @@
+#wrapper{
+	position: absolute;
+}
+
+#aquarium{
+	background-color: #C3D9FF;
+	width:800px;
+    height:600px;
+    position: relative;
+    margin-left: 300px;
+}
+
+.fish{
+	width: 50px;
+	height: 50px;
+	background-color: #CDEB8B;
+	border:2px solid;
+	position: absolute;
+	left:200px;
+	top:300px;
+}
+
+
+#description{
+
+    position: absolute;
+    
+	width: 300px;
+	height: 100%;
+	/*float: left;*/
+	/*border: 1px solid ;*/
+	background-color: #F9F7ED; 
+	
+}
+
+#add_fish_btn{
+	margin-top: 10px;
+}
+
+ul{
+	margin: 0px 16px;
+	padding-left: 20;
+}
+
+
+div {
+  font-family: 'Istok Web', sans-serif;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Forum', cursive;
+
+}
+
+red{
+	color: #B02B2C;
+}
+
+green{
+	color: #6BBA70;
+}
